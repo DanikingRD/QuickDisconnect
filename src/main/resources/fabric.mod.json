@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "iamfox",
+  "version": "${version}",
+
+  "name": "Quick Discconect",
+  "description": "Quick Disconnect is a simple mod which adds a hot key that will immediately disconnect you from the your single player world or server.",
+  "authors": [
+    "Daniking"
+  ],
+  "contact": {
+    "homepage": "https://github.com/DanikingMC/QuickDisconnect",
+    "sources": "https://www.curseforge.com/members/danik1ngrd/projects"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/iamfox/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.daniking.iamfox.common.IamFox"
+    ],
+    "client": [
+      "com.daniking.iamfox.client.IamFoxClient"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
